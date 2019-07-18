@@ -4,16 +4,16 @@
 
 # PowerDNS Authoritative check
 
-Icinga/Nagios plugin, interned to check PowerDNS status using pdns_control.
-A non-zero exit code is generated, if the numbers of DNS queries per seconds exceeds
+Icinga/Nagios plugin, interned to check PowerDNS Authoritative status using pdns_control.
+A non-zero exit code is generated if the numbers of DNS queries per seconds exceeds
 warning/critical
 
 ## Installation and requirements
 
 *   Python 2.7
-*   [pdns_control](https://doc.powerdns.com/authoritative/manpages/pdns_control.1.html)
+*   [pdns_control](https://doc.powerdns.com/authoritative/manpages/pdns_control.1.html)  
     pdns_control is included in the PowerDNS package. It is used to send commands to a running PowerDNS nameserver.
-*   [monitoring-plugins](https://github.com/monitoring-plugins/monitoring-plugins)
+*   [monitoring-plugins](https://github.com/monitoring-plugins/monitoring-plugins)  
     On debian-based systems you need the package `nagios-plugins` or the package `monitoring-plugins`
 
 
