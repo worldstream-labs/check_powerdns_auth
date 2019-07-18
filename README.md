@@ -1,6 +1,6 @@
 ![GitHub release](https://img.shields.io/github/release/worldstream-labs/check_powerdns_auth.svg) 
 ![GitHub](https://img.shields.io/github/license/worldstream-labs/check_powerdns_auth.svg?color=blue) 
-![python 3](https://img.shields.io/badge/python-3-blue.svg)
+![python 2](https://img.shields.io/badge/python-2-blue.svg)
 
 # PowerDNS Authoritative check
 
