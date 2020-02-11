@@ -168,7 +168,7 @@ class PowerDnsApi(object):
                 raise MyPdnsError("Incorrect API Key!")
             if get_result.status_code != 200:
                 raise MyPdnsError("API unexpected result code %d" % get_result.status_code)
-            json_object = json.loads(get_result.content)
+            json_object = json.loads(get_result.content.decode('utf-8'))
             return json_object
         except requests.exceptions.ConnectionError:
             raise MyPdnsError("Error connecting to %s" % url)
