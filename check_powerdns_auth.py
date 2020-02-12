@@ -23,7 +23,7 @@ from __future__ import print_function
 from builtins import str
 from builtins import object
 __author__ = 'Remi Frenay <rf@worldstream.nl>'
-__version__ = '1.1.0'
+__version__ = '1.2.0'
 __plugin_name__ = 'check_powerdns_auth.py'
 
 import os
